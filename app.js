@@ -5,7 +5,7 @@ const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const tiles = L.tileLayer(tileUrl, {attribution});
 tiles.addTo(map);
 
-const api_url = 'https://www.eventbriteapi.com/v3';
+const api_url = 'https://api.songkick.com/api/3.0';
 
 async function getEvent() {
 
